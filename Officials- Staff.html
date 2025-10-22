@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <nav class="sacco-navbar navbar-fixed-top">
+  <div class="nav-container">
+    <a href="index.html" class="logo">
+      <img src="wp-content/uploads/2020/04/logo-sm.jpg" alt="Home Business Sacco" />
+    </a>
+    <ul class="nav-links">
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="../about-us/index.html">About Us</a></li>
+  <li><a href="index.html">Services</a></li> <!-- stays local -->
+  <li><a href="../resources/downloads/index.html">Downloads</a></li>
+  <li><a href="../gallery/index.html">Gallery</a></li>
+  <li><a href="../contacts/index.html">Contact Us</a></li>
+  <li><a href="../faqs/index.html">FAQs</a></li>
+  <li><a href="../inquiry/index.html">Inquiry</a></li>
+  <li><a href="../careers/index.html">Careers</a></li>
+</ul>
+
+
+  </div>
+</nav>
+
+  <meta charset="UTF-8">
+  <title>Officials & Staff</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+.sacco-navbar {
+  background-color: #ff6600; /* SACCO orange */
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 48px;
+  border-radius: 8px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.08em;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+  background: #e65100;
+  color: #fff;
+}
+
+    body.custom-background { background-color: #39B54A ; }
+    body { font-family: 'Roboto', Arial, sans-serif; background: #f7f7f7; margin: 0; }
+    .section-title { text-align: center; color: #ff5100; margin: 40px 0 24px 0; font-size: 2em; }
+    .card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 32px;
+  margin-bottom: 48px;
+  justify-items: center;
+}
+.card-grid.two-cols {
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+}
+    .card { background: #fff; border-radius: 16px; box-shadow: 0 4px 24px #0002; width: 260px; padding: 18px 18px 12px 18px; text-align: center; }
+    .card img, .card-avatar img { 
+      width: 100%; 
+      height: 220px; 
+      object-fit: cover; 
+      border-radius: 12px; 
+      box-shadow: 0 2px 8px #0001; 
+      border: 4px solid #000; /* Black frame */
+    }
+    .card-title { font-weight: 600; font-size: 1.15em; margin: 16px 0 8px 0; color: #a81d84; }
+    .card-desc { font-size: 0.98em; color: #444; margin-bottom: 0; }
+    .officials-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 48px;
+    }
+    .official-col {
+      flex: 1 1 260px;
+      max-width: 260px;
+    }
+    @media (max-width: 900px) {
+      .card-grid { gap: 18px; }
+      .card { width: 90vw; max-width: 320px; }
+      .officials-row { gap: 18px; }
+      .official-col { max-width: 320px; }
+    }
+  </style>
+</head>
+
+<body>
+  
+  <h2 class="section-title">Officials</h2>
+  <div class="hestia-testimonials-content">
+    <div class="officials-row">
+      <div class="official-col">
+        <div class="card card-testimonial card-plain">
+          <div class="card-avatar">
+            <img class="img" src="../WebsiteImages/BoardChair.jpg" alt="Board Chairman" title="Board Chairman" />
+          </div>
+          <div class="content">
+            <h4 class="card-title">Board Chairman</h4>
+            <h6 class="category text-muted">JAMES NGARI KAMOTHO</h6>
+            <p class="card-description">God fearing, resilient, optimistic &amp; realistic.</p>
+          </div>
+        </div>
+      </div>
+      <div class="official-col">
+        <div class="card card-testimonial card-plain">
+          <div class="card-avatar">
+            <img class="img" src="wp-content/themes/hestia/assets/img/6.ceo.jpg" alt="Chief Executive Officer (C.E.0)" title="Chief Executive Officer (C.E.0)" />
+          </div>
+          <div class="content">
+            <h4 class="card-title">Chief Executive Officer (C.E.0)</h4>
+            <h6 class="category text-muted">Moses Kamau</h6>
+            <p class="card-description">Self driven, innovative, strategist, delegative &amp; resilient</p>
+          </div>
+        </div>
+      </div>
+      <div class="official-col">
+        <div class="card card-testimonial card-plain">
+          <div class="card-avatar">
+            <img class="img" src="wp-content/themes/hestia/assets/img/7.BoardSec.jpg" alt="Board Secretary" title="Board Secretary" />
+          </div>
+          <div class="content">
+            <h4 class="card-title">Board Secretary</h4>
+            <h6 class="category text-muted">Wallace </h6>
+            <p class="card-description">Motivated, team leader,</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title">Staff</h2>
+<div>
+  <h2 class="section-title">Operations Department</h2>
+  <div class="card-grid">
+  <div class="card">
+    <img src="PATH_TO_STAFF1_IMAGE" alt="Operations-HQ">
+    <div class="card-title">Staff 1</div>
+    <p class="card-desc">Brief description of Staff 1.</p>
+  </div>
+  <!-- Add more cards for Operations Department staff here -->
+</div>
+<h2 class="section-title">Audit Department</h2>
+  <div class="card-grid">
+      <div class="card">
+        <img src="PATH_TO_STAFF2_IMAGE" alt="Internal-Auditor">
+        <div class="card-title">Staff 2</div>
+        <p class="card-desc">Brief description of Staff 2.</p>
+      </div></div>
+    <h2 class="section-title">I.C.T Department</h2>
+      <div class="card-grid">
+      <div class="card">
+      <img src="PATH_TO_STAFF3_IMAGE" alt="System-Administrator">
+      <div class="card-title">Staff 3</div>
+      <p class="card-desc">Brief description of Staff 3.</p>
+    </div></div>
+    <h2 class="section-title">Accounts Department</h2>
+<div class="card-grid">
+  <div class="card">
+    <img src="PATH_TO_STAFF5_IMAGE" alt="Accountant">
+    <div class="card-title">Staff 4</div>
+    <p class="card-desc">Brief description of Staff 4.</p>
+  </div>
+</div>
+<h2 class="section-title">Marketing Department</h2>
+<div class="card-grid">
+  <div class="card">
+    <img src="PATH_TO_STAFF5_IMAGE" alt="Marketing Manager">
+    <div class="card-title">Staff 5</div>
+    <p class="card-desc">Brief description of Staff 5.</p>
+  </div>
+</div>
+</div>
+<section>
+  <h2 class="section-title">Branch Supervisors</h2>
+  <div class="card-grid">
+    <div class="card">
+      <img src="../WebsiteImages/KinambaSupervisor.jpeg" alt="Branch Supervisor 1">
+      <div class="card-title">Branch Supervisor 1</div>
+      <p class="card-desc">Brief description of Supervisor 1.</p>
+    </div>
+    <div class="card">
+      <img src="../WebsiteImages/SipiliSupervisor.jpeg" alt="Branch Supervisor 2">
+      <div class="card-title">Branch Supervisor 2</div>
+      <p class="card-desc">Brief description of Supervisor 2.</p>
+    </div>
+    <div class="card">
+      <img src="../WebsiteImages/KinambaSupervisor.jpeg" alt="Branch Supervisor 3">
+      <div class="card-title">Branch Supervisor 3</div>
+      <p class="card-desc">Brief description of Supervisor 3.</p>
+    </div>
+    <div class="card">
+      <img src="PATH_TO_SUPERVISOR4_IMAGE" alt="Branch Supervisor 4">
+      <div class="card-title">Branch Supervisor 4</div>
+      <p class="card-desc">Brief description of Supervisor 4.</p>
+    </div>
+    <div class="card">
+      <img src="PATH_TO_SUPERVISOR5_IMAGE" alt="Branch Supervisor 5">
+      <div class="card-title">Branch Supervisor 5</div>
+      <p class="card-desc">Brief description of Supervisor 5.</p>
+    </div>
+  </div>
+  </section>
+
+</body>
+</html>
